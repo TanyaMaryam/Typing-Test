@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Typing Speed Test</title>
+    <link href="./output.css" rel="stylesheet">
+    
+</head>
+<body class="bg-gray-100 min-h-screen flex items-center justify-center">
+    <div class="bg-white p-8 rounded-lg shadow-md w-full max-w-2xl">
+        <h1 class="text-3xl font-bold mb-4 text-center">Typing Speed Test</h1>
+        <div id="timer" class="text-xl font-semibold mb-4 text-center">Time: 60s</div>
+        <div id="text-display" class="mb-4 text-lg leading-relaxed bg-gray-100 p-4 rounded">
+            The quick brown fox jumps over the lazy dog. Pack my box with five dozen liquor jugs. How vexingly quick daft zebras jump! The five boxing wizards jump quickly. Sphinx of black quartz, judge my vow.
+        </div>
+        <textarea id="input-area" class="w-full p-2 border rounded mb-4" rows="5" disabled></textarea>
+        <div class="flex justify-between text-lg font-semibold">
+            <div>WPM: <span id="wpm">0</span></div>
+            <div>Errors: <span id="errors">0</span></div>
+        </div>
+        <button id="start-btn" class="mt-4 bg-blue-500 text-white px-4 py-2 rounded hover:bg-blue-600 w-full">Start Test</button>
+    </div>
+
+    <script src="script.js"></script>
+</body>
+</html>
