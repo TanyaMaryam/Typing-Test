@@ -1,5 +1,5 @@
 'use strict' 
-
+//Comment
 
         const textDisplay = document.getElementById('text-display');
         const inputArea = document.getElementById('input-area');
